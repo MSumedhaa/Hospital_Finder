@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.wecare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d328d75043c93f8329352cbc57c3e6fb\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+17-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d328d75043c93f8329352cbc57c3e6fb\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d328d75043c93f8329352cbc57c3e6fb\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
+18-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d328d75043c93f8329352cbc57c3e6fb\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <application
+24-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:12:5-43:19
+25        android:allowBackup="true"
+25-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:13:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\13c5e5eb30313edb16cd523337f0b5af\core-1.1.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:14:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:15:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:16:9-54
+31        android:supportsRtl="true"
+31-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:17:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:18:9-40
+34
+35        <!--
+36             The API key for Google Maps-based APIs is defined as a string resource.
+37             (See the file "res/values/google_maps_api.xml").
+38             Note that the API key is linked to the encryption key used to sign the APK.
+39             You need a different API key for each encryption key, including the release key that is used to
+40             sign the APK for publishing.
+41             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+42        -->
+43        <meta-data
+43-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:28:9-30:55
+44            android:name="com.google.android.geo.API_KEY"
+44-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:29:13-58
+45            android:value="@string/google_maps_key" />
+45-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:30:13-52
+46
+47        <activity
+47-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:32:9-34:68
+48            android:name="com.example.wecare.MapsActivity"
+48-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:33:13-41
+49            android:label="@string/title_activity_maps" />
+49-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:34:13-56
+50        <activity android:name="com.example.wecare.loginpage" />
+50-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:35:9-47
+50-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:35:19-44
+51        <activity android:name="com.example.wecare.MainActivity" >
+51-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:36:9-42:20
+51-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:36:19-47
+52            <intent-filter>
+52-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:37:13-41:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:38:17-69
+53-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:38:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:40:17-77
+55-->C:\Users\Dell\OneDrive\Desktop\TheCoronaApp\WeCare\app\src\main\AndroidManifest.xml:40:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+59            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+63            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+63-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+65
+66        <service
+66-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+69            <meta-data
+69-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+70                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+70-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f5f067a128761bce0bf5939988b6eb77\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+72        </service> <!-- Needs to be explicitly declared on P+ -->
+73        <uses-library
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+74            android:name="org.apache.http.legacy"
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+75            android:required="false" />
+75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cbf85eafb2135059195621735f3069f3\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\341bd112b51522774ca4a3e674aef5a9\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\341bd112b51522774ca4a3e674aef5a9\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\341bd112b51522774ca4a3e674aef5a9\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\341bd112b51522774ca4a3e674aef5a9\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb62432e86c57700bfbed09f4a3af4f3\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb62432e86c57700bfbed09f4a3af4f3\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+84            android:authorities="com.example.wecare.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb62432e86c57700bfbed09f4a3af4f3\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+85            android:exported="false"
+85-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb62432e86c57700bfbed09f4a3af4f3\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+86            android:initOrder="100" />
+86-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb62432e86c57700bfbed09f4a3af4f3\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7bcd9b525454ba2760cdaa07fdfd1208\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7bcd9b525454ba2760cdaa07fdfd1208\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7bcd9b525454ba2760cdaa07fdfd1208\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+91    </application>
+92
+93</manifest>
