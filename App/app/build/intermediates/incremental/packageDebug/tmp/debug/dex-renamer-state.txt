@@ -1,0 +1,4 @@
+#Sat Feb 13 14:33:30 IST 2021
+base.0=C\:\\Users\\Dell\\OneDrive\\Desktop\\TheCoronaApp\\WeCare\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
